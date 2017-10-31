@@ -48,6 +48,7 @@ void main () {
  	queue[0].waiting_time = 0;
  	queue[0].completion_time = queue[0].arrival_time + queue[0].burst_time;
  	queue[0].turnaround_time = queue[0].completion_time - queue[0].arrival_time;
+ 	printf("\nOUTPUT\n");
  	printf("process_number : %d\n",queue[0].process_number);
 	printf("arrival_time : %d\n",queue[0].arrival_time);
 	printf("burst_time : %d\n",queue[0].burst_time);
